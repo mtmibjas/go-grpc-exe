@@ -7,6 +7,16 @@ This repository provides a simple example of a gRPC server and client implemente
 - Go installed on your machine
 - Protocol Buffers compiler (`protoc`) installed
 
+**Install Protocol Buffers Compiler (protoc)**
+# On Linux
+sudo apt-get install protobuf-compiler
+
+# On macOS
+brew install protobuf
+
+# On Windows
+# Download and install from: https://github.com/protocolbuffers/protobuf/releases
+
 ## Getting Started
 
 1. Clone the repository:
@@ -29,6 +39,13 @@ This repository provides a simple example of a gRPC server and client implemente
 
 5. Run the gRPC client:
    `go run client.go`
+
+**Helpful Commands**
+`go get -u google.golang.org/grpc`
+`go get -u google.golang.org/protobuf`
+`go install google.golang.org/protobuf/cmd/protoc-gen-go@latest`
+`go install google.golang.org/grpc/cmd/protoc-gen-go-grpc@latest`
+
 
 **Project Structure**
   `alerts.proto`: Protocol Buffers definition file
