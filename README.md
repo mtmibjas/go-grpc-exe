@@ -8,14 +8,14 @@ This repository provides a simple example of a gRPC server and client implemente
 - Protocol Buffers compiler (`protoc`) installed
 
 **Install Protocol Buffers Compiler (protoc)**
-# On Linux
+**On Linux**
 sudo apt-get install protobuf-compiler
 
-# On macOS
+**On macOS**
 brew install protobuf
 
-# On Windows
-# Download and install from: https://github.com/protocolbuffers/protobuf/releases
+**On Windows**
+Download and install from: https://github.com/protocolbuffers/protobuf/releases
 
 ## Getting Started
 
