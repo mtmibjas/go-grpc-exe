@@ -19,28 +19,29 @@ This repository provides a simple example of a gRPC server and client implemente
    go mod tidy
 
 2. Generate Go code from the Protocol Buffers definition:
-  protoc --go_out=./alerts --go_opt=paths=source_relative \
-    --go-grpc_out=./alerts --go-grpc_opt=paths=source_relative \
-    alerts.proto
+   
+   `protoc --go_out=./alerts --go_opt=paths=source_relative 
+    --go-grpc_out=./alerts --go-grpc_opt=paths=source_relative 
+    alerts.proto`
 
-3. Run the gRPC server:
-  go run server.go
+4. Run the gRPC server:
+  `go run server.go`
 
-4. Run the gRPC client:
-   go run client.go
+5. Run the gRPC client:
+   `go run client.go`
 
-Project Structure
-  example.proto: Protocol Buffers definition file
-  server.go: Implementation of the gRPC server
+**Project Structure**
+  `alerts.proto`: Protocol Buffers definition file
+  `server.go`: Implementation of the gRPC server
   client.go: Implementation of the gRPC client
 
-Customize
+**Customize**
 Feel free to customize the example.proto, server.go, and client.go files to suit your specific requirements. Explore the gRPC documentation for advanced features and configuration options.
 
-Contributing
+**Contributing**
 If you find issues or want to contribute to this project, feel free to open a pull request or create an issue.
 
-License
+**License**
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 
