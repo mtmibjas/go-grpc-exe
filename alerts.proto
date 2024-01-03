@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package alerts;
+
+option go_package = "github.com/go-exe/alerts";
+
+message AlertRequest {
+    string body = 1; 
+}
+
+message AlertResponse {
+    string response = 1;
+}
+
+service AlertService {
+    rpc Send(AlertRequest) returns (AlertResponse);
+}
+
