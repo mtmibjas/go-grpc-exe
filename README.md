@@ -58,8 +58,5 @@ Feel free to customize the example.proto, server.go, and client.go files to suit
 **Contributing**
 If you find issues or want to contribute to this project, feel free to open a pull request or create an issue.
 
-**License**
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 
 Replace the placeholder content with the actual content of your `example.proto`, `server.go`, and `client.go` files. Additionally, update the license information and any other details according to your project's requirements.
